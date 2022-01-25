@@ -19,7 +19,7 @@ const Product = () => {
           Test layout
         </p>
         <p className="mt-5 text-xl font-mono">
-          Cookie of "abtest" should be set to "test"
+          Cookie of &quot;abtest&quot; should be set to &quot;test&quot;
         </p>
         <p className="mt-3 text-xl">
           Permanence of the stars intelligent beings the carbon in our apple pies billions upon billions concept of the number one decipherment. Made in the interiors of collapsing stars astonishment vastness is bearable only through love dream of the mind's eye extraordinary claims require extraordinary evidence hearts of the stars. Inconspicuous motes of rock and gas encyclopaedia galactica two ghostly white figures in coveralls and helmets are softly dancing gathered by gravity across the centuries Drake Equation and billions upon billions upon billions upon billions upon billions upon billions upon billions.
