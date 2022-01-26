@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-const COOKIE_NAME = 'abtest'
+const COOKIE_NAME = 'abtest-standard'
 const BUCKETS = ['original','test']
-const PAGES = ['product-a']
+const PAGES = ['product-b']
 
 
 export function middleware(req) {
@@ -21,7 +21,7 @@ export function middleware(req) {
     
     // Branch to bucket location
     if (bucket==='test') {
-      res = NextResponse.rewrite(`/products/${bucket}/${slug}`)
+      res = NextResponse.rewrite(`/standard-routes/${bucket}/${slug}`)
     } 
 
     // Store the bucket to cookies if it's not there

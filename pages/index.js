@@ -15,32 +15,29 @@ export default function Home() {
         </h1>
 
         <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            products/_middleware.js
-          </code>
+          Test the pages by observing cookie generation. Test pages should give a 50/50 chance of going green.
         </p>
 
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
 
-          <Link href="/products/product-a">
+          <Link href="/standard-routes">
             <a
               className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
             >
-              <h3 className="text-2xl font-bold">Product A &rarr;</h3>
+              <h3 className="text-2xl font-bold">Standard Routing &rarr;</h3>
               <p className="mt-4 text-xl">
-                This is the page we are testing
+                Standard routing works as expected
               </p>
             </a>
           </Link>
 
-          <Link href="/products/product-b">
+          <Link href="/dynamic-routes">
             <a
-              className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
+              className="mt-6 w-96 rounded-xl border p-6 text-left bg-red-100 hover:text-blue-600 focus:text-blue-600"
             >
-              <h3 className="text-2xl font-bold">Product B &rarr;</h3>
+              <h3 className="text-2xl font-bold">Dynamic Routing &rarr;</h3>
               <p className="mt-4 text-xl">
-                Same directory different slug
+                Dynamic routing has issues
               </p>
             </a>
           </Link>

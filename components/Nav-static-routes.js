@@ -8,14 +8,19 @@ const Nav = () => {
         Home
       </a>
     </Link>
-    <Link href="/products/product-a">
+    <Link href="/standard-routes/product-a">
       <a>
         Product A
       </a>
     </Link>
-    <Link href="/products/product-b">
+    <Link href="/standard-routes/product-b">
       <a>
-        Product B
+        Product B (testing)
+      </a>
+    </Link>
+    <Link href="/standard-routes/product-c">
+      <a>
+        Product C
       </a>
     </Link>
   </nav>
