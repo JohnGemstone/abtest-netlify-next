@@ -8,21 +8,21 @@ const Product = ({data}) => {
 
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
-        <title>{data.params.slug}</title>
+        <title>{data?.params.slug}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Nav />
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center max-w-screen-xl">
         <h1 className="text-6xl font-bold mb-5">
-          {data.params.slug}
+          {data?.params.slug}
         </h1>
         <p className="mt-3 text-4xl bg-gray-200 px-3 py-2 rounded-lg">
           Original layout
         </p>
         <p className="mt-5 text-xl font-mono">
           {
-            data.params.slug==='product-1'?'Cookie of "abtest-dynamic" set to "original"':'Dummy page'
+            data?.params.slug==='product-1'?'Cookie of "abtest-dynamic" set to "original"':'Dummy page'
           }
           
         </p>

@@ -15,7 +15,7 @@ const Product = ({data}) => {
     <Nav />
     <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center max-w-screen-xl ">
       <h1 className="text-6xl font-bold mb-5">
-        {data.params.slug}
+        {data?.params.slug}
       </h1>
       <p className="mt-3 text-4xl bg-emerald-300 px-3 py-2 rounded-lg">
         Test layout
