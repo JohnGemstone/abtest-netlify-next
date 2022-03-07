@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Nav from '@/components/Nav-dynamic-routes'
+import Nav from '@/components/Nav-dynamic-routes-no-mw'
 
 const Product = ({data}) => {
 
