@@ -28,7 +28,7 @@ export function middleware(req) {
     if (!req.cookies[COOKIE_NAME]) {
       res.cookie(COOKIE_NAME, bucket)
     }
-
+    console.log("middleware",res)
     return res
 
   }
