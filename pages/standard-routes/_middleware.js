@@ -21,7 +21,8 @@ export function middleware(req) {
     
     // Branch to bucket location
     if (bucket==='test') {
-      res = NextResponse.rewrite(`/standard-routes/${bucket}/${slug}`)
+      res = NextResponse.rewrite(new URL(`/standard-routes/${bucket}/${slug}`, req.url))
+
     } 
 
     // Store the bucket to cookies if it's not there
