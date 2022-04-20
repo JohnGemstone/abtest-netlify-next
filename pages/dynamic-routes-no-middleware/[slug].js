@@ -22,7 +22,7 @@ const Product = ({data}) => {
         </p>
         <p className="mt-5 text-xl font-mono">
           {
-            data.params.slug==='product-1'?'Cookie of "abtest-dynamic" set to "original"':'Dummy page'
+            data.params.slug==='product-1'?'Cookie of "abtest-dynamic" expected to be set to "original"':'Dummy page'
           }
           
         </p>
